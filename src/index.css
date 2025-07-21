@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #224a72;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+input,
+select,
+button,
+textarea {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1d3c6a; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: #0a2540; 
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    color: #1b0202;
+    margin-top: 1rem;
+}
+
+.card {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #f1c40f; 
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #f39c12; 
+}
+
+.text-gold {
+    color: #f39c12; 
+}
+
+.text-blue {
+    color: #1d3c6a;
+}
+
+.text-red {
+    color: red;
+}
